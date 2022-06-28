@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    height: 5500px;
+    background-color: #B7DFBD;
+
+    overflow-x: hidden;
+}
+
+.Página__Inicial {
+    width: 1440px;
+    height: 924px;
+    background: #79BF83;
+}
+
+.Logo {
+    width: 46.27px;
+    height: 50px;
+}
+
+header {
+    width: 1440px;
+    height: 61px;
+    background: #B7DFBD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h6 {
+    visibility: unset;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    position: relative;
+    width: 1440px;
+    height: 924px;
+}
+
+.Meio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.foto__nome__profissão {
+    position: absolute;
+    z-index: 2;
+    width: 1440px;
+    height: 406px;
+    top: 1013px;
+    border: 10px solid #FAF8F4;
+    top: 1013px;
+}
+
+.Foto {
+    box-sizing: border-box;
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    height: 300px;
+
+    margin-left: 140px;
+
+}
+
+h1 {
+    position: absolute;
+    height: 93.22px;
+    left: 531px;
+    top: 120px;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 75px;
+    color: #000000;
+}
+
+h2 {
+    position: absolute;
+    height: 77.68px;
+    left: 535px;
+    top: 220px;
+    font-family: 'Josefin Sans';
+    font-weight: 200;
+    font-size: 55px;
+    color: #000000;
+}
+
+.EsquerdaDireita {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    flex-wrap: row;
+    align-items: flex-start;
+}
+
+.Esquerda {
+    left: 100px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.Dados__Habilidade {
+    position: absolute;
+    width: 400px;
+    height: 2900px;
+    left: 100px;
+    top: 921px;
+    z-index: -1;
+    font-family: 'Josefin Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #79BF83;
+    z-index: -1px;
+
+}
+
+.DADOS {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 670px 50px 25px;
+    gap: 50px;
+}
+
+.textodoisdados {
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+
+H4 {
+    top: 9000px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 40px;
+    color: #0C1F17;
+}
+
+.HABILIDADES {
+    background-color: linear-gradient(180deg, #57C596 0%, rgba(85, 197, 150, 0.53) 100%);
+    height: 714px;
+    width: 400px;
+    left: 100px;
+    top: 2641px;
+    padding: 66px 50px;
+
+}
+
+.Direita {
+    position: absolute;
+    width: 875.25px;
+    height: 1083px;
+    left: 533px;
+    top: 1500px;
+}
+
+.Sobreme {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 40px;
+    color: #0C1F17;
+
+    background-color: #55C596;
+    height: 300px;
+    width: 740px;
+    top: 1600px;
+    border-radius: 10px;
+
+}
+
+.textosobre {
+    height: 30px;
+    width: 134px;
+    left: 300px;
+    top: 2039px;
+    margin-bottom: 68px;
+}
+
+.textosobredois {
+    display: flex;
+    padding: 50px 50px;
+
+}
+
+.Escola {
+    position: absolute;
+    left: -2px;
+    top: 460px;
+}
+
+.LinhaT {
+    margin-top: -250px;
+    width: 700px;
+    height: 900px;
+}
+
+.EXPERIENCIA {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 50px;
+    top: 900px;
+}
+
+.DesignGráfico {
+    top: 9000px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 40px;
+    color: #0C1F17;
+
+    width: 800px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.ParágrafoDesignGráfico {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 40px;
+    color: #0C1F17;
+
+    margin-left: 100px;
+    width: 600px;
+}
+
+.happy {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 40px;
+    color: #0C1F17;
+
+    margin-left: 100px;
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.Estagiáriodedesign {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 40px;
+    color: #0C1F17;
+
+    margin-top: 80px;
+    width: 600px;
+    margin-left: 100px;
+
+}
+
+.ParágrafoEstagiáriodedesign {
+    margin-top: auto 11000px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 40px;
+    color: #0C1F17;
+
+    margin-left: 100px;
+    width: 600px;
+}
+
+.blue {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 40px;
+    color: #0C1F17;
+
+    margin-left: 100px;
+    width: 600px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.Baixo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    position: relative;
+
+    top: 3050px;
+}
+
+.textoidiomas {
+    margin-left: -130px;
+}
+
+.I__diomas {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+
+    width: 1150px;
+    height: 100px;
+
+    left: 100px;
+
+    margin-top: 150px;
+}
+
+.textohobby {
+    margin-top: 500px;
+    margin-left: -120px;
+}
+
+.HobbyeInderesse {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+
+    width: 1157px;
+    height: 100px;
+    left: 100px;
+    margin-top: 150px;
+}
+
+footer {
+    background-color: #0E2C1F;
+    margin-top: 3700px;
+
+    width: 1440px;
+    height: 300px;
+}
+
+.paragrafofooter{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 950px;
+    padding-top: 150px;
+}
